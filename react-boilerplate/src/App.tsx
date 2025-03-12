@@ -7,9 +7,9 @@ const App = () => {
   return (
     <>
       <InstantSearch searchClient={searchClient} indexName="YOUR INDEX NAME">
-        <div className="flex flex-col justify-center items-center h-screen">
+        <div className="flex flex-col items-center justify-center h-screen">
           <div className="flex flex-col gap-2">
-            <h1 className="text-2xl font-bold text-center mb-8">
+            <h1 className="mb-8 text-2xl font-bold text-center">
               👋 Welcome to this assignement
             </h1>
             <ul>
@@ -21,7 +21,7 @@ const App = () => {
             </ul>
             <p>Feel free to use it or build something from scratch</p>
             <p>
-              Every information you need should be found in the
+              Every information you need should be found in the{' '}
               <a
                 target="_blank"
                 href="https://github.com/algolia/Demo-engineers-assignement"
